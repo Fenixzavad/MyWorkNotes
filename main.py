@@ -1,5 +1,5 @@
-from controllers import MainController
-from data import DbRequests
+from controllers.init import MainController
+from data.init import DbRequests
 from models import Model
 from views import View
 
