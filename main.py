@@ -1,9 +1,7 @@
-from controllers.init import MainController
-from data.init import DbRequests
+from controllers import MainController
+from data import DbRequests
 from models import Model
 from views import View
-
-
 
 if __name__ == '__main__':
     path = 'data\database_json\database_note.json'

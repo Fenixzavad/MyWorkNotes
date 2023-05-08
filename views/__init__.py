@@ -1,0 +1,1 @@
+from .console.view import ViewConsoleBasic as View
