@@ -1,5 +1,5 @@
 from data import DbRequests
-from .note import Note
+from entities import Note
 
 
 class ModelBasic:

@@ -1,5 +1,5 @@
 from .menu import Menu
-from .note import Note
+from entities import Note
 
 class Utilities:
 

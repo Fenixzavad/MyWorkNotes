@@ -1,5 +1,5 @@
 from models import Model
-from .note import Note
+from entities import Note
 
 
 class MainController:

@@ -1,6 +1,6 @@
 import json
 import os.path
-from .note import Note
+from entities import Note
 
 
 class DbJsonRequests:
@@ -105,10 +105,10 @@ class DbJsonRequests:
 
     def __get_table(self) -> dict:
         data: dict = {}
-        with open(self.__db_path, "read") as read_file:
+        with open(self.__db_path, "r") as read_file:
             data = json.load(read_file)
         return data
 
     def __set_table(self, notes: dict):
-        with open(self.__db_path, 'write') as write_file:
+        with open(self.__db_path, 'w') as write_file:
             json.dump(notes, write_file, indent=4)

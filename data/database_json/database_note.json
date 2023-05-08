@@ -1,0 +1,47 @@
+{
+    "max_id": 8,
+    "notes": [
+        {
+            "note_id": 1,
+            "title": "",
+            "text": "",
+            "date_of_change": ""
+        },
+        {
+            "note_id": 3,
+            "title": "",
+            "text": "",
+            "date_of_change": ""
+        },
+        {
+            "note_id": 4,
+            "title": "",
+            "text": "",
+            "date_of_change": ""
+        },
+        {
+            "note_id": 5,
+            "title": "",
+            "text": "",
+            "date_of_change": ""
+        },
+        {
+            "note_id": 6,
+            "title": "day",
+            "text": "monday",
+            "date_of_change": "09.05.2023-00:26:40"
+        },
+        {
+            "note_id": 7,
+            "title": "day",
+            "text": "saturday",
+            "date_of_change": "09.05.2023-00:27:52"
+        },
+        {
+            "note_id": 8,
+            "title": "day",
+            "text": "wenesday",
+            "date_of_change": "09.05.2023-00:28:29"
+        }
+    ]
+}
